@@ -5,6 +5,9 @@
     padding: 0 ;
     box-sizing: border-box;
 }
+.color{
+    background-color: #e2eda6;
+}
 .center{
     font-family: 'Audiowide', cursive;
 }
@@ -39,7 +42,6 @@
 .explicação ul{
     font-size: 20px;
     list-style-type: none;
-    margin: 5%;
     width: 85%;
     font-family: 'Roboto', sans-serif;
 }
@@ -48,5 +50,6 @@
 }
 .direitos{
     padding: 3%;
+    border-top: 2px solid black;
     background-color: #b0db38;
 }
