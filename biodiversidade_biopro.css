@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center{
+    font-family: 'Audiowide', cursive;
+}
+#logo{
+    text-align: center;
+    background-image: url(https://www.portaldoenvelhecimento.com.br/wp-content/uploads/2019/09/ipe-amarelo.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+#menu ul{
+    list-style-type: none;
+    background-color: #b0db38;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+#biodiversidade{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+#menu ul li a{
+    color:#535f32;
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px;
+    transition: .4s;
+}
+#menu ul li a:hover{
+    color: #535f32;
+    background-color: white;
+    -webkit-box-shadow:0 3px 10px 0 #adafa7;
+}
+.explicação ul {
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 3%;
+    font-size: 20px;
+    width: 80%;
+}
+.faunaflora{
+    text-align: center;
+    padding: 3%;
+}
+ #principais_plantas{
+    font-size: 20px;
+    font-weight: bold;
+}
+#principais_plantas_risco_de_extinção{
+    font-size: 20px;
+    font-weight: bold;
+}
+#principais_animais{
+    font-size: 20px;
+    font-weight: bold;
+}
+.principais{
+    display: flex;
+    flex-wrap: wrap;
+}
+.principal2{
+    border-left: 2px solid black;
+    padding: 5px;
+}
+.flora{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0%;
+    width: 81%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #d0e4c0;
+}
+.fauna{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80% ;
+    font-family: 'Roboto', sans-serif;
+    background-color: #d0e4c0;
+}
+.direitos{
+    padding: 3%;
+    background-color: #b0db38;
+}
+#ecovida{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}

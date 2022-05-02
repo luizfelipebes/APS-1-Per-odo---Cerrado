@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{    
+    margin: 0 auto;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+.center{
+    font-family: 'Audiowide', cursive;
+}
+#logo{
+    text-align: center;
+    background-image: url(https://www.portaldoenvelhecimento.com.br/wp-content/uploads/2019/09/ipe-amarelo.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+#menu ul{
+    list-style-type: none;
+    font-size: 20px;
+    text-align: center;
+    background-color: #b0db38;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    color:#535f32;
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px;
+    transition: .4s;
+}
+#menu ul li a:hover{
+    color:#535f32 ;
+    background-color: white;
+    -webkit-box-shadow:0 6px 10px  #adafa7;
+}
+.explicação ul{
+    font-size: 20px;
+    list-style-type: none;
+    margin: 5%;
+    width: 85%;
+    font-family: 'Roboto', sans-serif;
+}
+.explicação ul li{
+    padding: 2%;
+}
+.direitos{
+    padding: 3%;
+    background-color: #b0db38;
+}
