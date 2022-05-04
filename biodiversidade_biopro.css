@@ -5,6 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: rgb(244,255,213);
+background: linear-gradient(0deg, rgba(244,255,213,1) 0%, rgba(176,185,33,1) 50%, rgba(244,255,213,1) 95%);
+}
 .center{
     font-family: 'Audiowide', cursive;
 }
@@ -89,6 +93,7 @@
 .direitos{
     padding: 3%;
     background-color: #b0db38;
+    border-top: 2px solid black;
 }
 #ecovida{
     color: black;
