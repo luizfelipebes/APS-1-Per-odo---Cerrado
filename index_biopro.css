@@ -5,7 +5,7 @@
     padding: 0 ;
     box-sizing: border-box;
 }
-.color{
+body{
     background-color: #dfebc4;
 }
 .center{
@@ -35,7 +35,7 @@
     transition: .4s;
 }
 #menu ul li a:hover{
-    color:#535f32 ;
+    color:rgb(6, 41, 3) ;
     background-color: white;
     -webkit-box-shadow:0 6px 10px  #adafa7;
 }
@@ -43,15 +43,71 @@
     font-size: 20px;
     list-style-type: none;
     width: 80%;
-    padding: 3%;
+    padding: 1%;
+    margin: 2% auto;
     font-family: 'Roboto', sans-serif;
 }
 .explicação ul li{
     padding: 2%;
     text-align:justify;
 }
+#FotoCerrado{
+    text-align: center;
+}
+#ChapadaDosVeadeiros{
+    text-align: center;
+    font-size: 15px;
+}
+.APP-BioPro{
+    border:2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 70% ;
+    font-family: 'Roboto', sans-serif;
+    margin: 4% auto;
+    background-color: #d0e4c0;
+}
+#TituloEcoturismo{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #b0db38;
+}
+.ExplicandoEcoturismo ul{
+    list-style-type: none;
+    font-size: 20px;
+}
+.ExplicandoEcoturismo ul li{
+    padding: 2%;
+    text-align:justify;
+}
+.ImagensEcoturismo{
+    display: flex;
+    flex-wrap: wrap;
+}
+#TextoParaBaixarAPP{
+    text-align: center;
+    font-weight: bold;
+}
+#Download{
+    text-align: center;
+    font-size: 25px;
+}
+#Download a{
+    background-color:#b0db38;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px;
+    transition: .4s;
+}
+#Download a:hover{
+    color:#408500 ;
+    background-color:white;
+    -webkit-box-shadow:0 6px 10px  #adafa7;
+}
 footer{
-    padding: 1%;
     border-top: 2px solid black;
     background-color: #b0db38;
     font-family:'Roboto', sans-serif;
@@ -68,10 +124,7 @@ footer{
     padding: 15% 0%;
 }
 .Redes #redes a:hover{
-    opacity:0.5;
-}
-.Redes #redes :target{
-    
+    opacity:0.5; 
 }
 .direitos{
     text-align: center;

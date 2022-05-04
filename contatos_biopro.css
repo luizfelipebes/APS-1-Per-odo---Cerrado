@@ -42,8 +42,118 @@ body{
     background-color: white;
     -webkit-box-shadow:0 3px 10px 0 #adafa7;
 }
+#TituloSOS{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.MovimentoSOS{
+    display: flex;
+    align-items: center;
+}
+.contatos{
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding: 2%;
+    width: 60%;
+    margin: 5% auto;
+    background-color: #d0e4c0;
+    
+}
+#FalarComSOS{
+    text-align: center;
+    font-size: 25px;
+}
+#FalarComSOS a{
+    background-color:#b0db38;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px;
+    transition: .4s;
+}
+#FalarComSOS a:hover{
+    color:#408500 ;
+    background-color:white;
+    -webkit-box-shadow:0 6px 10px  #adafa7;
+}
+#TituloBombeiro{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.Incendio{
+    display: flex;
+    align-items: center;
+}
+.contatos2{
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding: 2%;
+    width: 60%;
+    margin: 5% auto;
+    background-color: #d0e4c0;
+    
+}
+#FalarComBombeiros{
+    text-align: center;
+    font-size: 25px;
+}
+#FalarComBombeiros a{
+    background-color:#b0db38;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px;
+    transition: .4s;
+}
+#FalarComBombeiros a:hover{
+    color:#408500 ;
+    background-color:white;
+    -webkit-box-shadow:0 6px 10px  #adafa7;
+}
+#TituloIbama{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.Outros{
+    display: flex;
+    align-items: center;
+}
+.contatos3{
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding: 2%;
+    width: 60%;
+    margin: 5% auto;
+    background-color: #d0e4c0;
+    
+}
+#FalarComIbama{
+    text-align: center;
+    font-size: 25px;
+}
+#FalarComIbama a{
+    background-color:#b0db38;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px;
+    transition: .4s;
+}
+#FalarComIbama a:hover{
+    color:#408500 ;
+    background-color:white;
+    -webkit-box-shadow:0 6px 10px  #adafa7;
+}
 footer{
-    padding: 1%;
     border-top: 2px solid black;
     background-color: #b0db38;
     font-family:'Roboto', sans-serif;
@@ -61,9 +171,6 @@ footer{
 }
 .Redes #redes a:hover{
     opacity:0.5;
-}
-.Redes #redes :target{
-    
 }
 .direitos{
     text-align: center;
