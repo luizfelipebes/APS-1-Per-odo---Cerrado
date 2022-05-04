@@ -61,6 +61,18 @@ footer{
     align-items: center;
     padding: 1%;
 }
+.Redes{
+    text-align: center;
+}
+#redes{
+    padding: 15% 0%;
+}
+.Redes #redes a:hover{
+    opacity:0.5;
+}
+.Redes #redes :target{
+    
+}
 .direitos{
     text-align: center;
     padding: 1%;
