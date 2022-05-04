@@ -45,6 +45,7 @@
 }
 .explicação ul li{
     padding: 2%;
+    text-align:justify;
 }
 .direitos{
     padding: 3%;
