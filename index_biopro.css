@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 .color{
-    background-color: #e2eda6;
+    background-color: #dfebc4;
 }
 .center{
     font-family: 'Audiowide', cursive;
@@ -42,15 +42,26 @@
 .explicação ul{
     font-size: 20px;
     list-style-type: none;
-    width: 85%;
+    width: 80%;
+    padding: 3%;
     font-family: 'Roboto', sans-serif;
 }
 .explicação ul li{
     padding: 2%;
     text-align:justify;
 }
-.direitos{
-    padding: 3%;
+footer{
+    padding: 1%;
     border-top: 2px solid black;
     background-color: #b0db38;
+    font-family:'Roboto', sans-serif;
+}
+.RedesLogo{
+    display:flex;
+    align-items: center;
+    padding: 1%;
+}
+.direitos{
+    text-align: center;
+    padding: 1%;
 }
