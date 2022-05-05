@@ -81,7 +81,7 @@ body{
     padding: 2%;
     text-align:justify;
 }
-.ImagensEcoturismo{
+.ImagensEcoturismo{ 
     display: flex;
     flex-wrap: wrap;
 }
@@ -92,6 +92,7 @@ body{
 #Download{
     text-align: center;
     font-size: 25px;
+    margin: 0 auto;
 }
 #Download a{
     background-color:#b0db38;
