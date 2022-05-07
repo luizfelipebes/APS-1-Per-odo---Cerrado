@@ -7,6 +7,7 @@
 }
 body{
     background-color: #dfebc4;
+    font-family: 'Roboto', sans-serif;
 }
 .center{
     font-family: 'Audiowide', cursive;
@@ -41,6 +42,73 @@ body{
     color: #535f32;
     background-color: white;
     -webkit-box-shadow:0 3px 10px 0 #adafa7;
+}
+#breveexplicação{
+    font-size: 20px;
+    width: 80%;
+    padding: 1%;
+    margin: 2% auto;
+    text-align: justify;
+}
+#indice_causas{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #b0db38;
+    width: 13%;
+}
+.causas{
+    border:2px solid black;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 1%;
+    width: 70%;
+    margin: 4% auto;
+    background-color: #d0e4c0;
+}
+#img_causas{
+    text-align: center;
+}
+#indice_consequencia{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #b0db38;
+    width: 22%;
+}
+.consequencias{
+    font-size: 18px;
+    border:2px solid black;
+    border-radius: 10px;
+    padding: 1%;
+    width: 70%;
+    margin: 4% auto;
+    background-color: #d0e4c0;
+}
+#img_consequencias{
+    text-align: center;
+}
+#indice_soluções{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #b0db38;
+    width: 16%;
+}
+.soluções{
+    font-size: 18px;
+    border:2px solid black;
+    border-radius: 10px;
+    padding: 1%;
+    width: 70%;
+    margin: 4% auto;
+    background-color: #d0e4c0;
+}
+#ul_soluções{
+    padding: 0 3%;
+}
+#img_soluções{
+    text-align: center;
 }
 footer{
     border-top: 2px solid black;

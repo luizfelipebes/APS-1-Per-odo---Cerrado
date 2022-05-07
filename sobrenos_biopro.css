@@ -42,6 +42,35 @@ body{
     background-color: white;
     -webkit-box-shadow:0 3px 10px 0 #adafa7;
 }
+.SobreNos_Criadores{
+    border:2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 70% ;
+    font-family: 'Roboto', sans-serif;
+    margin: 4% auto;
+    background-color: #d0e4c0;
+}
+#Explicação{
+    font-size: 22px;
+    text-align:center;
+    padding: 2%;
+}
+#Criadores{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #b0db38;
+    width: 20%;
+}
+.Criadores_Pai{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
 footer{
     border-top: 2px solid black;
     background-color: #b0db38;
